@@ -23,8 +23,6 @@ namespace KinematicCharacterController.Examples
         public float MoveAxisRight;
         public Quaternion CameraRotation;
         public bool JumpDown;
-        public bool CrouchDown;
-        public bool CrouchUp;
     }
 
     public struct AICharacterInputs
@@ -175,23 +173,6 @@ namespace KinematicCharacterController.Examples
                         {
                             _timeSinceJumpRequested = 0f;
                             _jumpRequested = true;
-                        }
-
-                        // Crouching input
-                        if (inputs.CrouchDown)
-                        {
-                            _shouldBeCrouching = true;
-
-                            if (!_isCrouching)
-                            {
-                                _isCrouching = true;
-                                Motor.SetCapsuleDimensions(0.5f, CrouchedCapsuleHeight, CrouchedCapsuleHeight * 0.5f);
-                                MeshRoot.localScale = new Vector3(1f, 0.5f, 1f);
-                            }
-                        }
-                        else if (inputs.CrouchUp)
-                        {
-                            _shouldBeCrouching = false;
                         }
 
                         break;

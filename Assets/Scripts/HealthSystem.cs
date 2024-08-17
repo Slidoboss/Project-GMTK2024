@@ -2,35 +2,36 @@ using System;
 
 public class HealthSystem
 {
-    private int health;
-    private int maxHealth;
+    private int _health;
+    private int _maxHealth;
+    private bool _isAlive = true;
 
-    public event EventHandler OnHealthChanged;
+    public bool IsAlive
+    {
+        get { return _isAlive; }
+    }
     public int GetHealth
     {
-        get { return health; }
+        get { return _health;}
     }
-    private bool isAlive = true;
     public HealthSystem(int maxHealth)
     {
-        this.maxHealth = maxHealth;
-        health = maxHealth;
+        this._maxHealth = maxHealth;
+        _health = maxHealth;
     }
 
     public void Damage(int damageAmount)
     {
-        health -= damageAmount;
-        if (health <= 0)
+        _health -= damageAmount;
+        if (_health <= 0)
         {
-            health = 0;
-            isAlive = false;
+            _health = 0;
+            _isAlive = false;
         }
-        OnHealthChanged?.Invoke(this, EventArgs.Empty);
     }
     public void Heal(int healAmount)
     {
-        health += healAmount;
-        if (health > maxHealth) health = maxHealth;
-        OnHealthChanged?.Invoke(this, EventArgs.Empty);
+        _health += healAmount;
+        if (_health > _maxHealth) _health = _maxHealth;
     }
 }

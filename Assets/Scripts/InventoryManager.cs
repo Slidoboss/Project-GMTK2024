@@ -2,17 +2,38 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryManager : MonoBehaviour
+public class InventoryManager : IInteractable
 {
-    // Start is called before the first frame update
-    void Start()
+    private Inventory inventory =  new Inventory();
+
+    public string InteractionPromp => "New item found";
+
+    public void AddItem(CraftItem item)
     {
-        
+        if (item != null)
+        {
+            inventory.bag.Add(item);
+            Debug.Log($"Item added. Current item count: {inventory.bag.Count}");
+        }
+        else
+        {
+            Debug.LogWarning("Attempted to add a null item to the inventory.");
+        }
+    }
+    public List<CraftItem> GetItems()
+    {
+        return new List<CraftItem>(inventory.bag);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Interact(Interactors interactors, CraftItem item)
     {
-        
+       if (item != null)
+        {
+            AddItem(item);
+        }
+        else
+        {
+            Debug.LogWarning("Attempted to interact with a null item.");
+        }
     }
 }

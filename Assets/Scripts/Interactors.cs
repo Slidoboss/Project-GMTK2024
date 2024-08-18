@@ -19,10 +19,11 @@ public class Interactors : MonoBehaviour
         if(collidersFound > 0)
         {
             var interactable = colliders[0].GetComponent<IInteractable>();
+            var craftItem = colliders[0].GetComponent<CraftItem>();
 
             if(interactable != null && Keyboard.current.eKey.wasPressedThisFrame)
             {
-                interactable.Interact(this);
+                interactable.Interact(this,craftItem);
             }
         }
     }

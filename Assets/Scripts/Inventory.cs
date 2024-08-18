@@ -2,7 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventorySystem : MonoBehaviour
+public class Inventory 
 {
-   private List<CraftItem> _bag;
+    public List<CraftItem> bag;
+    public Inventory()
+    {
+        bag = new List<CraftItem>();
+    }
 }

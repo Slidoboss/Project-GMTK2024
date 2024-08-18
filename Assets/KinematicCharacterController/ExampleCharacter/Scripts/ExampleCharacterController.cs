@@ -61,6 +61,7 @@ namespace KinematicCharacterController.Examples
         public float JumpPostGroundingGraceTime = 0f;
 
         [Header("Misc")]
+        [SerializeField] private Animator animator;
         public List<Collider> IgnoredColliders = new List<Collider>();
         public BonusOrientationMethod BonusOrientationMethod = BonusOrientationMethod.None;
         public float BonusOrientationSharpness = 10f;
@@ -282,6 +283,10 @@ namespace KinematicCharacterController.Examples
 
                             // Smooth movement Velocity
                             currentVelocity = Vector3.Lerp(currentVelocity, targetMovementVelocity, 1f - Mathf.Exp(-StableMovementSharpness * deltaTime));
+
+                            float forwardValue = Vector3.Dot(currentVelocity, Motor.CharacterForward);
+
+                            animator.SetFloat("Forward", forwardValue);
                         }
                         // Air movement
                         else
@@ -338,6 +343,8 @@ namespace KinematicCharacterController.Examples
                             // See if we actually are allowed to jump
                             if (!_jumpConsumed && ((AllowJumpingWhenSliding ? Motor.GroundingStatus.FoundAnyGround : Motor.GroundingStatus.IsStableOnGround) || _timeSinceLastAbleToJump <= JumpPostGroundingGraceTime))
                             {
+                                animator.SetTrigger("Jump");
+
                                 // Calculate jump direction before ungrounding
                                 Vector3 jumpDirection = Motor.CharacterUp;
                                 if (Motor.GroundingStatus.FoundAnyGround && !Motor.GroundingStatus.IsStableOnGround)

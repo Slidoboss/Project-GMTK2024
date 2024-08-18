@@ -5,5 +5,5 @@ using UnityEngine;
 public interface IInteractable
 {
     public string InteractionPromp {  get; }
-    public bool Interact(Interactors interactors);
+    public void Interact(Interactors interactors);
 }

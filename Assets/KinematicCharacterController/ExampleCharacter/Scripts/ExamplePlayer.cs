@@ -10,6 +10,7 @@ namespace KinematicCharacterController.Examples
     {
         public ExampleCharacterController Character;
         public ExampleCharacterCamera CharacterCamera;
+        [SerializeField] private Transform self;
 
         private const string MouseXInput = "Mouse X";
         private const string MouseYInput = "Mouse Y";

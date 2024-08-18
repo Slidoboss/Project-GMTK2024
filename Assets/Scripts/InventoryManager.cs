@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryManager : IInteractable
+public class InventoryManager : MonoBehaviour, IInteractable
 {
     private Inventory inventory =  new Inventory();
 
@@ -25,15 +25,8 @@ public class InventoryManager : IInteractable
         return new List<CraftItem>(inventory.bag);
     }
 
-    public void Interact(Interactors interactors, CraftItem item)
+    public void Interact(Interactors interactors)
     {
-       if (item != null)
-        {
-            AddItem(item);
-        }
-        else
-        {
-            Debug.LogWarning("Attempted to interact with a null item.");
-        }
+        Debug.Log("Interaction");
     }
 }

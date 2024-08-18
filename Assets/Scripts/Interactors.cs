@@ -23,7 +23,7 @@ public class Interactors : MonoBehaviour
 
             if(interactable != null && Keyboard.current.eKey.wasPressedThisFrame)
             {
-                interactable.Interact(this,craftItem);
+                interactable.Interact(this);
             }
         }
     }

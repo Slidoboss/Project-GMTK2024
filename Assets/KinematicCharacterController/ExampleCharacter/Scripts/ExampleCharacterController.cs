@@ -66,6 +66,8 @@ namespace KinematicCharacterController.Examples
         public BonusOrientationMethod BonusOrientationMethod = BonusOrientationMethod.None;
         public float BonusOrientationSharpness = 10f;
         public Vector3 Gravity = new Vector3(0, -30f, 0);
+        [SerializeField] private Transform model;
+
         public Transform MeshRoot;
         public Transform CameraFollowPoint;
         public float CrouchedCapsuleHeight = 1f;
@@ -429,6 +431,7 @@ namespace KinematicCharacterController.Examples
                             {
                                 // If no obstructions, uncrouch
                                 MeshRoot.localScale = new Vector3(1f, 1f, 1f);
+                                
                                 _isCrouching = false;
                             }
                         }

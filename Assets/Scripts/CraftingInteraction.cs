@@ -21,4 +21,13 @@ public class CraftingInteraction : MonoBehaviour, IInteractable
         craftingManager.SetActive(true);
         craftingUI.SetActive(true);
     }
+
+    private void Update()
+    {
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            craftingUI.SetActive(false);
+            craftingManager.SetActive(false);
+        }
+    }
 }

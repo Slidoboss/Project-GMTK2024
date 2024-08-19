@@ -22,6 +22,7 @@ public class CraftingManager : MonoBehaviour
     [Header("Inventory Logic")]
     [SerializeField] private InventoryManager inventoryManager;
     [SerializeField] private GameObject craftingUI;
+    [HideInInspector] public bool hasChemical;
 
 
     private void Update()
@@ -130,6 +131,7 @@ public class CraftingManager : MonoBehaviour
         inventoryManager.AddItem(resultSlot.item);
         craftingUI.gameObject.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
+        hasChemical = true;
         gameObject.SetActive(false);
     }
 

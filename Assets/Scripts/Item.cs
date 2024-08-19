@@ -9,6 +9,7 @@ public class Item : ScriptableObject
     public ItemType type;
     public Action actionType;
     public Vector2Int range = new Vector2Int(5, 4);
+    public string name;
 
     [Header("UI")]
     public bool stackable = true;

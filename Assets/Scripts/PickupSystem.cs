@@ -7,8 +7,6 @@ public class PickupSystem : MonoBehaviour, IInteractable
 {
     [Header("UI")]
     [SerializeField] private string prompt;
-    [Space]
-    [SerializeField] private InteractionPrompt interactionPrompt;
 
     [Header("Inventory")]
     [SerializeField] private InventoryManager inventoryManager;
@@ -19,7 +17,6 @@ public class PickupSystem : MonoBehaviour, IInteractable
     public void Interact(Interactors interactors)
     {
         inventoryManager.AddItem(item);
-        interactionPrompt.Close();
         gameObject.SetActive(false);
     }
 }

@@ -128,26 +128,6 @@ public class CraftingManager : MonoBehaviour
 
     public void AddItemToInventory()
     {
-        if (inventoryManager == null)
-        {
-            Debug.LogError("inventoryManager is null.");
-            return;
-        }
-
-        // Check if resultSlot is assigned
-        if (resultSlot == null)
-        {
-            Debug.LogError("resultSlot is null.");
-            return;
-        }
-
-        // Check if resultSlot.item is assigned
-        if (resultSlot.item == null)
-        {
-            Debug.LogError("resultSlot.item is null.");
-            return;
-        }
-
         inventoryManager.AddItem(resultSlot.item);
         craftingUI.gameObject.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;

@@ -45,7 +45,7 @@ namespace KinematicCharacterController.Examples
         public float TargetDistance { get; set; }
 
         private bool _distanceIsObstructed;
-        private float _currentDistance;
+        public float _currentDistance;
         private float _targetVerticalAngle;
         private RaycastHit _obstructionHit;
         private int _obstructionCount;

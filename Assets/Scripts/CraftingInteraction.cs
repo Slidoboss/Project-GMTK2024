@@ -28,6 +28,7 @@ public class CraftingInteraction : MonoBehaviour, IInteractable
         {
             craftingUI.SetActive(false);
             craftingManager.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 }

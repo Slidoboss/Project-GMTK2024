@@ -15,19 +15,29 @@ public class TreeGrowing : MonoBehaviour, IInteractable
     [SerializeField] private GameObject stage4;
     [SerializeField] private int stage = 1;
     [Space]
-    [SerializeField] private GameObject noChemicalUI;
+    [SerializeField] private PlayerShirnk playerShirnk;
 
     [Header("Funtionalities")]
     [SerializeField] private InventoryManager inventoryManager;
 
     public string InteractionPromp => prompt;
 
-    public async void Interact(Interactors interactors)
+    private void Start()
     {
-        if (inventoryManager.GetSelectedItem(true).type == Item.ItemType.ChemicalResult)
+        //Testing :D
+        TreeStageCheck();
+    }
+
+    public void Interact(Interactors interactors)
+    {
+        Debug.Log("Interaction");
+
+        if (inventoryManager.GetSelectedItem(true).type == Item.ItemType.ChemicalResult && stage != 3)
         {
             stage++;
             TreeStageCheck();
+        } else if(inventoryManager.GetSelectedItem(true).type == Item.ItemType.ChemicalResult && stage == 3) {
+            playerShirnk.Shrink();
         }
     }
 

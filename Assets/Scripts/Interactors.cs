@@ -5,8 +5,8 @@ using UnityEngine.InputSystem;
 
 public class Interactors : MonoBehaviour
 {
-    [SerializeField] private Transform interactionPoint;
-    [SerializeField] private float interactionPointRadius;
+    public Transform interactionPoint;
+    public float interactionPointRadius;
     [SerializeField] private LayerMask interactionMask;
     [SerializeField] private int collidersFound;
     [SerializeField] private InteractionPrompt interactionPrompt;
@@ -33,17 +33,18 @@ public class Interactors : MonoBehaviour
                 {
                     _interactable.Interact(this);
                 }
-            } else
+            } 
+        }
+        else
+        {
+            if (_interactable != null)
             {
-                if(_interactable != null)
-                {
-                    _interactable = null;
-                }
+                _interactable = null;
+            }
 
-                if (interactionPrompt.IsDisplayed)
-                {
-                    interactionPrompt.Close();
-                }
+            if (interactionPrompt.IsDisplayed)
+            {
+                interactionPrompt.Close();
             }
         }
     }

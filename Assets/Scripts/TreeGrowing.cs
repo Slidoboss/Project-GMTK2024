@@ -32,11 +32,11 @@ public class TreeGrowing : MonoBehaviour, IInteractable
     {
         Debug.Log("Interaction");
 
-        if (inventoryManager.GetSelectedItem(true).type == Item.ItemType.ChemicalResult && stage != 3)
+        if (inventoryManager.GetSelectedItem(true).type == Item.ItemType.ChemicalResult && stage != 3 && !playerShirnk.isShrunk)
         {
             stage++;
             TreeStageCheck();
-        } else if(inventoryManager.GetSelectedItem(true).type == Item.ItemType.ChemicalResult && stage == 3) {
+        } else if(inventoryManager.GetSelectedItem(true).type == Item.ItemType.ChemicalResult && stage == 3 && !playerShirnk.isShrunk) {
             playerShirnk.Shrink();
         }
     }

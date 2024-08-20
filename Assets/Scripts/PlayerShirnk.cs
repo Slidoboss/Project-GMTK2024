@@ -16,6 +16,7 @@ public class PlayerShirnk : MonoBehaviour
     [SerializeField] private ExampleCharacterController kinematicCharacterController;
     [SerializeField] private Interactors interactors;
     [SerializeField] private ExampleCharacterCamera camera;
+    [HideInInspector] public bool isShrunk = false;
 
     public void Shrink()
     {
@@ -25,6 +26,7 @@ public class PlayerShirnk : MonoBehaviour
         camera.MaxDistance = 10;
         camera.DefaultDistance = 10;
         camera._currentDistance = 10;
+        isShrunk = true;
     }
 
 }

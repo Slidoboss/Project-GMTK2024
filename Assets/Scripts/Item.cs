@@ -18,7 +18,8 @@ public class Item : ScriptableObject
     public enum ItemType
     {
         Chemical,
-        ChemicalResult
+        ChemicalResult,
+        Apple
     }
 
     public enum Action

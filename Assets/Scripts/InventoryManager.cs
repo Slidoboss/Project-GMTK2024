@@ -47,7 +47,6 @@ public class InventoryManager : MonoBehaviour
             {
                 itemInSlot.count++;
                 itemInSlot.RefreshCount();
-                SpawnNewItem(item, slot);
                 return true;
             }
         }

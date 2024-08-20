@@ -90,9 +90,9 @@ public class InventoryManager : MonoBehaviour
                 {
                     itemInSlot.RefreshCount();
                 }
-            }
 
-            return item;
+                return item;
+            }
         }
 
         return null;

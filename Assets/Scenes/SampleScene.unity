@@ -1890,9 +1890,8 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1916035432}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
   m_GameObject: {fileID: 0}
-=======
+
 --- !u!114 &928881598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1926,7 +1925,6 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928881597}
->>>>>>> Stashed changes
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0f9ecfef62d65b4db75e45f6d9bad57, type: 3}
@@ -3936,11 +3934,9 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
-<<<<<<< Updated upstream
 --- !u!114 &1581386271 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8746865925045975002, guid: e1824195aae8d58499a7251b8487a127,
-=======
 --- !u!114 &1547678418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4098,7 +4094,6 @@ Transform:
 --- !u!1 &1581386265 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7283094511119136739, guid: e1824195aae8d58499a7251b8487a127,
->>>>>>> Stashed changes
     type: 3}
   m_PrefabInstance: {fileID: 1831047032}
   m_PrefabAsset: {fileID: 0}

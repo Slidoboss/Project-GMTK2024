@@ -1,0 +1,58 @@
+Event	ID	Name			Wwise Object Path	Notes
+	216307738	Player_Grab_WaterDroplets			\Player\Player_Grab_WaterDroplets	
+	733800440	Music_Theme			\Music\Music_Theme	
+	1780308710	Footsteps_Walk			\Player\Footsteps_Walk	
+	2144758952	Player_Eat_Apple			\Player\Player_Eat_Apple	
+	2462760816	Footsteps_Run			\Player\Footsteps_Run	
+	2932059033	Player_Throwing			\Player\Player_Throwing	
+	3402891275	Ants			\Other\Ants	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1230601154	Surface_Material			\Default Work Unit\Surface_Material	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Surface_Material			
+	2058049674	Wood	Surface_Material			
+	2195636714	Dirt	Surface_Material			
+	4248645337	Grass	Surface_Material			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	28407776	FallingInTheGround_03	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\FallingInTheGround_C4893EA6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Actions\Throwing\FallingInTheGround\FallingInTheGround_03		141304
+	38079846	Grass_Run_02	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Grass_Walk_AD72FD82.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Run\Grass_Run\Grass_Run_02		56876
+	128346386	Drums Second Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Drums Third Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Second Section\Drums Second Section		4233696
+	132173985	Bass Second Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Bass Third Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Second Section\Bass Second Section		4233696
+	186135048	FallingInTheGround_01	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\FallingInTheGround_1B2F1D44.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Actions\Throwing\FallingInTheGround\FallingInTheGround_01		99104
+	194604184	Ants	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Termites and Ants ｜ Royalty Free Sound Effects_09963D65.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ants\Ants\Ants		132164
+	200737823	Dirt_Run	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Dirt_Walk_A8F34EC9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Run\Dirt_Run\Dirt_Run		42096
+	239016504	Drums Middle Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Drums Middle Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Middle Section\Drums Middle Section		4233696
+	242544117	First Section Violin Arppegio Ex at 5	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\First Section Violin Arppegio Ex at 5_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\First Section\First Section Violin Arppegio Ex at 5		4233696
+	328708487	Synth Theme  Middle Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Brass Lick Middle Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Middle Section\Synth Theme  Middle Section		4233696
+	330715992	Wood_Run	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Wood_Walk_072AB6E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Run\Wood_ Run\Wood_Run		28320
+	341014460	Dirt_Walk_01	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Dirt_Walk_09F6623B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Walk\Dirt_Walk\Dirt_Walk_01		71020
+	403688251	Concrete_Walk_02	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Concrete_Walk_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Walk\Concrete_Walk\Concrete_Walk_02		101732
+	422475071	Wood_Run_02	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Wood_Walk_46C1047D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Run\Wood_ Run\Wood_Run_02		28320
+	479661130	Ants_01	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Termites and Ants ｜ Royalty Free Sound Effects_424C7CE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ants\Ants\Ants_01		339380
+	549219752	Dirt_Walk_02	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Dirt_Walk_32727BBD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Walk\Dirt_Walk\Dirt_Walk_02		70988
+	573865903	Concrete_Run	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Concrete_Walk_D591CF88.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Run\Concrete_Run\Concrete_Run		36064
+	591141347	Dirt_Walk	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Dirt_Walk_A7AF7D92.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Walk\Dirt_Walk\Dirt_Walk		70512
+	604480547	Strings Appegio Middle Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Strings Appegio Middle Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Middle Section\Strings Appegio Middle Section		4233696
+	633593929	First Section Guitar Lick No Ex 120	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\First Section Guitar Lick No Ex 120_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\First Section\First Section Guitar Lick No Ex 120		4233696
+	708518859	Throwing	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Throwing_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Actions\Throwing\Throwing\Throwing		108772
+	729228038	Drums First Section NE EC at 6M 120 AM	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Drums First Section NE EC at 6M 120 AM_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\First Section\Drums First Section NE EC at 6M 120 AM		4233696
+	778189853	Eating_Apple_01	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Eating_Apple_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Actions\Apple\Eating_Apple_01		88296
+	780990986	Ants_02	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Termites and Ants ｜ Royalty Free Sound Effects_C0F1820B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ants\Ants\Ants_02		179984
+	857648587	Grass_Walk_01	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Grass_Walk_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Walk\Grass_Walk\Grass_Walk_01		101732
+	864558821	Grabbing_Water_Droplets	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Grabbing_Water_Droplets_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Actions\Grabbing_WaterDroplets\Grabbing_Water_Droplets		88296
+	879184919	Synth Pad Second Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Synth Pad Third Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Second Section\Synth Pad Second Section		4233696
+	897887636	Harp Second Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Harp Third Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Second Section\Harp Second Section		4233696
+	915590030	Strings Appegio Middle Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Synth Pad Middle Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Middle Section\Strings Appegio Middle Section		4233696
+	928442524	FallingInTheGround	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\FallingInTheGround_E0B66E28.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Actions\Throwing\FallingInTheGround\FallingInTheGround		152668
+	933425370	Bass First Section NE  or EX 120 AM	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Bass First Section NE  or EX 120 AM_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\First Section\Bass First Section NE  or EX 120 AM		4233696
+	1017949285	FallingInTheGround_02	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\FallingInTheGround_9F8D271A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Actions\Throwing\FallingInTheGround\FallingInTheGround_02		139680
+	1018359283	Synth Theme  Middle Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Synth Theme  Middle Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Middle Section\Synth Theme  Middle Section		4233696
+	1032001980	First Section Violin Arppegio Ex at 5	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\First Section Guitar Theme  First Section No EX 120_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\First Section\First Section Violin Arppegio Ex at 5		4233696
+	1040892144	Wood_Walk_02	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Wood_Walk_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Walk\Wood_Walk\Wood_Walk_02		101732
+	1048383889	Harp Second Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Synth Theme Third Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Second Section\Harp Second Section		4233696
+	1057300500	Wood_Run_01	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Wood_Walk_6D413616.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps_Surface_Run\Wood_ Run\Wood_Run_01		28320
+	1059248896	Synth Bass Middle Section	C:\Users\evert\Documents\WwiseProjects\GMTK Game Jam 1\.cache\Mac\SFX\Synth Bass Middle Section_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Music Theme\Middle Section\Synth Bass Middle Section		4233696
+

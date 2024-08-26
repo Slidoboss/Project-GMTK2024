@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DB42D8E5-BE5A-8C17-AE3B-C1437CEAC27D}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="215992295" Name="Player_Health"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3762137787" Name="Player_Life">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2791675679" Name="Defeated"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1230601154" Name="Surface_Material">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2195636714" Name="Dirt"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3150251081" Name="Eating_Material">
+					<Switches>
+						<Switch Id="67176023" Name="Apple"/>
+						<Switch Id="3551102352" Name="Water_Droplets"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2451497209" Type="User" Language="SFX" Hash="{44D8577C-17E7-B6C2-ECF8-6CAB80AAE784}">
+			<ShortName>All_in_one</ShortName>
+			<Path>All_in_one.bnk</Path>
+			<Media>
+				<File Id="28407776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FallingInTheGround.wav</ShortName>
+					<CachePath>SFX/FallingInTheGround_C4893EA6.wem</CachePath>
+				</File>
+				<File Id="38079846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass_Walk.wav</ShortName>
+					<CachePath>SFX/Grass_Walk_AD72FD82.wem</CachePath>
+				</File>
+				<File Id="128346386" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums Third Section.wav</ShortName>
+					<CachePath>SFX/Drums Third Section_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="132173985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass Third Section.wav</ShortName>
+					<CachePath>SFX/Bass Third Section_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="186135048" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FallingInTheGround.wav</ShortName>
+					<CachePath>SFX/FallingInTheGround_1B2F1D44.wem</CachePath>
+				</File>
+				<File Id="194604184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Termites and Ants ｜ Royalty Free Sound Effects.wav</ShortName>
+					<CachePath>SFX/Termites and Ants ｜ Royalty Free Sound Effects_09963D65.wem</CachePath>
+				</File>
+				<File Id="200737823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt_Walk.wav</ShortName>
+					<CachePath>SFX/Dirt_Walk_A8F34EC9.wem</CachePath>
+				</File>
+				<File Id="239016504" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums Middle Section.wav</ShortName>
+					<CachePath>SFX/Drums Middle Section_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="242544117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>First Section Violin Arppegio Ex at 5.wav</ShortName>
+					<CachePath>SFX/First Section Violin Arppegio Ex at 5_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="328708487" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Brass Lick Middle Section.wav</ShortName>
+					<CachePath>SFX/Brass Lick Middle Section_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="330715992" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood_Walk.wav</ShortName>
+					<CachePath>SFX/Wood_Walk_072AB6E3.wem</CachePath>
+				</File>
+				<File Id="341014460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt_Walk.wav</ShortName>
+					<CachePath>SFX/Dirt_Walk_09F6623B.wem</CachePath>
+				</File>
+				<File Id="403688251" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Concrete_Walk.wav</ShortName>
+					<CachePath>SFX/Concrete_Walk_818F3B66.wem</CachePath>
+				</File>
+				<File Id="422475071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood_Walk.wav</ShortName>
+					<CachePath>SFX/Wood_Walk_46C1047D.wem</CachePath>
+				</File>
+				<File Id="479661130" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Termites and Ants ｜ Royalty Free Sound Effects.wav</ShortName>
+					<CachePath>SFX/Termites and Ants ｜ Royalty Free Sound Effects_424C7CE1.wem</CachePath>
+				</File>
+				<File Id="549219752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt_Walk.wav</ShortName>
+					<CachePath>SFX/Dirt_Walk_32727BBD.wem</CachePath>
+				</File>
+				<File Id="573865903" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Concrete_Walk.wav</ShortName>
+					<CachePath>SFX/Concrete_Walk_D591CF88.wem</CachePath>
+				</File>
+				<File Id="591141347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt_Walk.wav</ShortName>
+					<CachePath>SFX/Dirt_Walk_A7AF7D92.wem</CachePath>
+				</File>
+				<File Id="604480547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Strings Appegio Middle Section.wav</ShortName>
+					<CachePath>SFX/Strings Appegio Middle Section_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="633593929" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>First Section Guitar Lick No Ex 120.wav</ShortName>
+					<CachePath>SFX/First Section Guitar Lick No Ex 120_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="708518859" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Throwing.wav</ShortName>
+					<CachePath>SFX/Throwing_818F3B66.wem</CachePath>
+				</File>
+				<File Id="729228038" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums First Section NE EC at 6M 120 AM.wav</ShortName>
+					<CachePath>SFX/Drums First Section NE EC at 6M 120 AM_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="778189853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Eating_Apple.wav</ShortName>
+					<CachePath>SFX/Eating_Apple_818F3B66.wem</CachePath>
+				</File>
+				<File Id="780990986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Termites and Ants ｜ Royalty Free Sound Effects.wav</ShortName>
+					<CachePath>SFX/Termites and Ants ｜ Royalty Free Sound Effects_C0F1820B.wem</CachePath>
+				</File>
+				<File Id="857648587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass_Walk.wav</ShortName>
+					<CachePath>SFX/Grass_Walk_818F3B66.wem</CachePath>
+				</File>
+				<File Id="864558821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grabbing_Water_Droplets.wav</ShortName>
+					<CachePath>SFX/Grabbing_Water_Droplets_818F3B66.wem</CachePath>
+				</File>
+				<File Id="879184919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Synth Pad Third Section.wav</ShortName>
+					<CachePath>SFX/Synth Pad Third Section_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="897887636" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Harp Third Section.wav</ShortName>
+					<CachePath>SFX/Harp Third Section_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="915590030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Synth Pad Middle Section.wav</ShortName>
+					<CachePath>SFX/Synth Pad Middle Section_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="928442524" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FallingInTheGround.wav</ShortName>
+					<CachePath>SFX/FallingInTheGround_E0B66E28.wem</CachePath>
+				</File>
+				<File Id="933425370" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass First Section NE  or EX 120 AM.wav</ShortName>
+					<CachePath>SFX/Bass First Section NE  or EX 120 AM_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1017949285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FallingInTheGround.wav</ShortName>
+					<CachePath>SFX/FallingInTheGround_9F8D271A.wem</CachePath>
+				</File>
+				<File Id="1018359283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Synth Theme  Middle Section.wav</ShortName>
+					<CachePath>SFX/Synth Theme  Middle Section_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1032001980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>First Section Guitar Theme  First Section No EX 120.wav</ShortName>
+					<CachePath>SFX/First Section Guitar Theme  First Section No EX 120_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1040892144" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood_Walk.wav</ShortName>
+					<CachePath>SFX/Wood_Walk_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1048383889" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Synth Theme Third Section.wav</ShortName>
+					<CachePath>SFX/Synth Theme Third Section_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1057300500" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood_Walk.wav</ShortName>
+					<CachePath>SFX/Wood_Walk_6D413616.wem</CachePath>
+				</File>
+				<File Id="1059248896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Synth Bass Middle Section.wav</ShortName>
+					<CachePath>SFX/Synth Bass Middle Section_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3402891275" Name="Ants" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="194604184"/>
+						<MediaRef Id="479661130"/>
+						<MediaRef Id="780990986"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2462760816" Name="Footsteps_Run" DurationType="OneShot" DurationMin="0.14671488" DurationMax="0.3410328">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1230601154" Id="2195636714"/>
+							<MediaRefs>
+								<MediaRef Id="200737823"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1230601154" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="330715992"/>
+								<MediaRef Id="422475071"/>
+								<MediaRef Id="1057300500"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1230601154" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="573865903"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1230601154" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="38079846"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1780308710" Name="Footsteps_Walk" DurationType="OneShot" DurationMin="0.35820097" DurationMax="0.6656771">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1230601154" Id="2195636714"/>
+							<MediaRefs>
+								<MediaRef Id="341014460"/>
+								<MediaRef Id="549219752"/>
+								<MediaRef Id="591141347"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1230601154" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="1040892144"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1230601154" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="403688251"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1230601154" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="857648587"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="733800440" Name="Music_Theme" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="128346386"/>
+						<MediaRef Id="132173985"/>
+						<MediaRef Id="239016504"/>
+						<MediaRef Id="242544117"/>
+						<MediaRef Id="328708487"/>
+						<MediaRef Id="604480547"/>
+						<MediaRef Id="633593929"/>
+						<MediaRef Id="729228038"/>
+						<MediaRef Id="879184919"/>
+						<MediaRef Id="897887636"/>
+						<MediaRef Id="915590030"/>
+						<MediaRef Id="933425370"/>
+						<MediaRef Id="1018359283"/>
+						<MediaRef Id="1032001980"/>
+						<MediaRef Id="1048383889"/>
+						<MediaRef Id="1059248896"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2144758952" Name="Player_Eat_Apple" DurationType="OneShot" DurationMin="0.5146511" DurationMax="0.5515894">
+					<MediaRefs>
+						<MediaRef Id="778189853"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="216307738" Name="Player_Grab_WaterDroplets" MaxAttenuation="35" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5452539">
+					<MediaRefs>
+						<MediaRef Id="864558821"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932059033" Name="Player_Throwing" DurationType="OneShot" DurationMin="1.0297673" DurationMax="1.4163363">
+					<MediaRefs>
+						<MediaRef Id="28407776"/>
+						<MediaRef Id="186135048"/>
+						<MediaRef Id="708518859"/>
+						<MediaRef Id="928442524"/>
+						<MediaRef Id="1017949285"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1230601154" Name="Surface_Material">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2195636714" Name="Dirt"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{29526A9A-D1D1-FFD3-6F82-67E71B867981}</FileHash>
+</SoundBanksInfo>

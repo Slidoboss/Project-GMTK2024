@@ -20,6 +20,7 @@ public class CraftingInteraction : MonoBehaviour, IInteractable
     {
         craftingManager.SetActive(true);
         craftingUI.SetActive(true);
+        AkSoundEngine.PostEvent("Player_Grab_WaterDroplets", gameObject);
     }
 
     private void Update()

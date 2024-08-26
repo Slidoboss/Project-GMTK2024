@@ -13,11 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ANTS = 3402891275U;
         static const AkUniqueID FOOTSTEPS_RUN = 2462760816U;
         static const AkUniqueID FOOTSTEPS_WALK = 1780308710U;
         static const AkUniqueID MUSIC_THEME = 733800440U;
-        static const AkUniqueID PLAYER_EAT = 803967661U;
-        static const AkUniqueID PLAYER_GRAB = 816303795U;
+        static const AkUniqueID PLAYER_EAT_APPLE = 2144758952U;
+        static const AkUniqueID PLAYER_GRAB_WATERDROPLETS = 216307738U;
         static const AkUniqueID PLAYER_THROWING = 2932059033U;
     } // namespace EVENTS
 
@@ -50,17 +51,6 @@ namespace AK
             } // namespace SWITCH
         } // namespace EATING_MATERIAL
 
-        namespace PLAYER_SPEED
-        {
-            static const AkUniqueID GROUP = 1062779386U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID RUN = 712161704U;
-                static const AkUniqueID WALK = 2108779966U;
-            } // namespace SWITCH
-        } // namespace PLAYER_SPEED
-
         namespace SURFACE_MATERIAL
         {
             static const AkUniqueID GROUP = 1230601154U;
@@ -79,7 +69,6 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID PLAYER_HEALTH = 215992295U;
-        static const AkUniqueID PLAYER_MOVEMENTSPEED = 2471758783U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

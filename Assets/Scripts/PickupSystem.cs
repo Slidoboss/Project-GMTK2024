@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 
 public class PickupSystem : MonoBehaviour, IInteractable
 {
@@ -18,5 +19,7 @@ public class PickupSystem : MonoBehaviour, IInteractable
     {
         inventoryManager.AddItem(item);
         gameObject.SetActive(false);
+        AkSoundEngine.PostEvent("Player_Eat_Apple", gameObject);
     }
 }
+
